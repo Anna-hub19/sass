@@ -41,4 +41,130 @@ nav ul li a:hover {
 .banner .inner-banner h2 {
   font-size: 1.5rem;
   color: #4D2DB7;
+}
+
+#servico {
+  margin: 80px;
+}
+#servico h4 {
+  font-size: 1.2rem;
+  color: #4D2DB7;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#servico h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+}
+#servico .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servico .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servico .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #0E21A0;
+}
+#servico .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #0E21A0;
+  line-height: 1.25rem;
+}
+#servico .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 3px solid #4D2DB7;
+}
+#servico .cards .card .img-container img {
+  max-width: 100%;
+}
+
+#cupom {
+  background-color: #9D44C0;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #0E21A0;
+}
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 1.7rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid #fff;
+  background-color: #fff;
+}
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #0E21A0;
+  outline: none;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #0E21A0;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#cupom button:hover {
+  background-color: #4D2DB7;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #0E21A0;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #0E21A0, #4D2DB7, #9D44C0, #0E21A0);
+}
+footer i {
+  color: red;
+}
+
+#Curiosidades {
+  padding: 1rem;
+  text-align: center;
+  margin: 5px;
+}
+#Curiosidades h3 {
+  color: #0E21A0;
+  font-size: 1.2rem;
+}
+#Curiosidades h4 {
+  color: #4D2DB7;
+  font-size: 1rem;
+}
+#Curiosidades p {
+  margin-top: 5px;
+  color: #0E21A0;
 }/*# sourceMappingURL=style.css.map */
